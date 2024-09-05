@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    background-color: #213555;
+    height: 100%;
+  }
+.ground{
+  height: 100vh;
+} 
+p{
+  margin: 1rem;
+}
+  .heading{
+    font-size: 3em;
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-style: italic;
+  }
+  .text {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 0;
+    list-style: none;
+    line-height: 30px;
+  }
+  .list{
+    background-color: #6a9c89;
+    opacity: 0.9;
+  }
+  .submit{
+    margin-top: 20px;
+  }
+  .navbar-brand{
+    color: #0766AD;
+    transition: color 0.3s;
+    font-family: 'Fuggles', cursive;
+  }
+
+.button {
+    border-radius: 50px;
+    border: 2px solid #213555;
+    color: white;
+    background-color: #6a9c89;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.feedback{
+    margin: 10px;
+  }
+
+.tbox{
+    width: 40%;
+    padding: 12px;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+
+.img-icon{
+    width: fit-content;
+    height: 60px;
+    padding-bottom: 20px;
+    position: relative;
+    opacity: 0.8;
+  }
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 100px;
+}
+
+.icon{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container{
+    background-color: aliceblue;
+    width: 100%;
+    opacity: 0.89;
+}
+
+.back{
+  background-image: url("../public/images/tech.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+  z-index: -1;
+  background-color: #918d8d;
+  /* padding: 50px 100px; */
+  height: 180px;
+  width: 180px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.7);
+}
+.gradient-background {
+  background: linear-gradient(300deg, #213555, #64CCC5, #d4cfce);
+  background-size: 150% 150%;
+  animation: gradient-animation 8s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.contact{
+  background-color: aliceblue;
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.carousel-inner {
+  width: 600px !important;
+}
+.franci{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.form{
+  margin-bottom:50px;
+  margin-top: 50px;
+  background-color:#f6f6f6;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+.label{
+  background-color:#f6f6f6;
+  display: flex;
+  justify-content: space-around;
+}
+.textarea{
+  width: 25% !important;
+  background-color:#f6f6f6
+}
+.textsubmit{
+  padding-top: 20px;
+  background-color:#f6f6f6
+}
+.imgStyles{
+  width:350px;
+  height:250px;
+  margin:5px;
+  z-index: 2;
+}
+.imgVer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  opacity: 0.79;
+  border: 2px solid #9BBEC8;
+  border-radius: 20px;
+  z-index: 1;
+  background-color: #d4cfce;
+}
+
+.create{
+  position: relative;
+  left: 5px;
+  top: 4px;
+  border: 2px solid #164863;
+  border-radius: 10px;
+  background-color: #F5E8C7;
+  opacity: 0.7;
+  width: 70%;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.7);
+}
+
+.create-box{
+  display: flex;
+}
+
+.fab button{
+  position: relative;
+  left: 110px;
+  bottom: 10px;
+  width: 34px;
+  height: 26px;
+  border: none;
+  border-radius: 90%;
+  background: #427D9D;
+  color: black;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.details{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+.attach{
+  background-image: url("../public/images/FoA.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
